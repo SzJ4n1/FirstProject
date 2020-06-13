@@ -6,7 +6,14 @@ namespace HelloGit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Git!");
+            if (args[0] == "-help")
+            {
+                Console.WriteLine("This is a test app to learn how to use github");
+            }
+            else
+            {
+                Console.WriteLine("Hello Git!");
+            }
         }
     }
 }
